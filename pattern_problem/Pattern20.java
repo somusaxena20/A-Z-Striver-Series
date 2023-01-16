@@ -16,7 +16,7 @@ public class Pattern20 {
 
     public static void main(String[] args) {
         
-        int n = 5;
+        int n = 2;
 
         for (int i = 1; i <= n; i++) {
             
@@ -43,7 +43,7 @@ public class Pattern20 {
                 System.out.print("*");
             }
 
-            for (int j = 1; j <= 2*(i-1); j++) {
+            for (int j = 1; j <= 2*(i); j++) {
                 System.out.print(" ");
             }
 
