@@ -8,7 +8,7 @@ public class QuickSort {
             int ind = partition(arr, low, high);
             quickSort(arr, low, ind - 1);
             quickSort(arr, ind + 1, high);
-        }
+        }   
     }
 
     static int partition(int a[], int s, int e) {
